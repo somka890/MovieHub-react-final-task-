@@ -1,0 +1,70 @@
+.movie-box {
+  padding: 2rem;
+  width: clamp(320px, 70vw, 900px);
+  margin: 2rem auto;
+  text-align: center;
+  color: #EAE0D2;
+  background: rgba(45, 45, 45, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+}
+
+.movie-box h1 {
+  font-size: clamp(1.2rem, 2vw, 2.2rem);
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #F9F295, #E0AA3E, #B88A44);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 2.2rem;
+}
+
+.poster-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  margin-bottom: 1.5rem;
+}
+
+.movie-info {
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+  margin-bottom: 1.5rem;
+  color: #EAE0D2;
+}
+
+.movie-info p {
+  margin: 0.3rem 0;
+}
+
+.movie-summary {
+  font-size: clamp(0.9rem, 1.2vw, 1.05rem);
+  line-height: 1.6;
+  color: #EAE0D2;
+  margin-bottom: 2rem;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 0.9rem 2.5rem;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+
+  background: linear-gradient(135deg, #F9F295, #E0AA3E, #B88A44);
+  color: #2D2D2D;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: linear-gradient(135deg, #fff3b0, #f0c65a, #b88a44);
+  color: #2D2D2D;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+  transform: translateY(-2px);
+}

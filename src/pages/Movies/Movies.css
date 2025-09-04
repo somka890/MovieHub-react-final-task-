@@ -1,0 +1,15 @@
+.movies-box {
+  padding: 2rem;
+}
+
+  
+.movies-h1{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-weight: 700;
+  background: linear-gradient(135deg, #F9F295, #E0AA3E, #B88A44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

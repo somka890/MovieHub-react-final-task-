@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #2D2D2D;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(90deg, #F9F295, #E0AA3E, #B88A44);
+  border-image-slice: 1;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.3rem 0;
+  text-decoration: none;
+  color: #F9F295;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #2D2D2D; 
+  background: linear-gradient(135deg, #F9F295, #E0AA3E, #B88A44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #F9F295, #E0AA3E, #B88A44);
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
